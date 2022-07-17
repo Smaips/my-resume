@@ -1,0 +1,15 @@
+<svg width="99" height="30" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" fill="white" d="m0,30l0,-30l44.5,0l10,15.5l-10,14.5l-44.5,0z"/>
+  <rect id="svg_2" fill="#FF6B08" height="30" width="44" x="55"/>
+  <path id="svg_3" fill="white" d="m72.696,18.424l1.36,0l0,2.576l-5.44,0l0,-2.576l1.36,0l0,-6.064l-1.36,0l0,-2.56l5.44,0l0,2.56l-1.36,0l0,6.064zm10.0315,-6.064l0,8.64l-2.72,0l0,-8.64l-2.864,0l0,-2.56l8.448,0l0,2.56l-2.864,0z"/>
+  <text font-style="normal" font-weight="bold" stroke="null" transform="matrix(0.8885892166924003,0,0,0.8712145373342559,-54.32320554328292,3.434226287795923) " xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="24" id="svg_5" y="19.949507" x="64.000652" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#000000">sma</text>
+  <path d="m37.277794,9.675932c0,0 0.24691,-0.246913 0.493824,-0.493826c0.493828,-0.493827 0.740742,-0.74074 1.23457,-1.234567c0.740738,-0.740739 1.083176,-1.214223 1.728394,-1.48148c0.228115,-0.094488 0.512619,-0.152424 0.740738,-0.246913c0.322609,-0.133628 0.45031,-0.366977 0.987656,-0.493827c0.240307,-0.056728 0.497013,-0.207362 0.740738,-0.246913c0.770729,-0.125072 1.728394,-0.74074 1.975307,-0.74074l0,0.246913" id="svg_6" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="null" fill="none"/>
+ </g>
+</svg>

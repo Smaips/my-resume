@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .modal{
+            display: none;
+        }
+    </style>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/choices.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+</head>
+<body>
+    <!--FRONT PAGE-->
+    <section class="front-page">
+        <!-- <div class="container"> -->
+            <nav class="navigation">
+                <a href="" class="logo-link">
+                    <img src="img/sma-logo.svg" alt="GOIT logo">
+                </a>
+
+                <div class="desktop-element">
+                    <div class="mobile-menu-items">
+                        <a href="#about" class="mobile-menu-item">ABOUT</a>
+                        <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+                        <a href="#calculator" class="mobile-menu-item">COST CALCULATOR</a>
+                        <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+                    </div>
+                </div>
+
+                <div class="navigation-part">
+                    <a href="#callback-form" class="hire-me-btn">&mdash; HIRE ME</a>
+                    <div class="mobile-element tablet-element">
+                        <a href="" class="mobile-menu" id="mobile-menu-btn">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="front-page-wrapper">
+                <div class="front-page-main-info">
+                    <img 
+                        src="img/IMG-My-foto.jpg" 
+                        alt="my photo" class="front-page-my-photo desktop-element" 
+                        data-aos="fade-down"
+                        data-aos-delay="1500"
+                    />
+                    <h1 class="front-page-my-name" >[Mike SV]</h1>
+                    
+                    <h2 class="front-page-profession">
+                        <span class="profession-part-1">{Frontend}</span> 
+                        <span class="profession-part-2">_DEVELOPER</span>
+                    </h2>
+                    
+                    <p class="front-page-description">
+                        /Using HTML, CSS, JavaScript, React Native and Node.js I help to 
+                        build websites, small and medium web apps for business 
+                    </p>
+
+                    <a href="#projects" class="front-page-gallery-btn accent-btn">
+                        See my recent works &mdash;
+                    </a>
+                </div>
+                
+                <div class="front-page-my-info">
+                    <img src="img/IMG-My-foto.jpg" alt="my photo" class="front-page-my-photo mobile-element tablet-element">
+                    
+                    <div class="front-page-about-me-container" data-aos="fade-left" data-aos-delay="1000">
+
+                        <p class="front-page-my-descr mobile-element">About me in 2 minutes</p>
+
+                        <p class="front-page-my-descr tablet-element desktop-element">About me<br> in 2 minutes</p>
+                        
+                        <button class="front-page-my-video-btn" id="my-video-btn">
+                            <i class="fas fa-play"></i>
+                            PLAY
+                        </button>
+                    </div>
+                </div>
+
+                <img src="img/laptop.svg" alt="" class="front-page-laptop">
+                <div class="experience-wrapper" data-aos="fade-right" data-aos-delay="500">
+                    <div class="experience-conteiner">
+                        <h3 class="experience-title">
+                            My coding skills & experience
+                        </h3>
+
+                        <div class="experience-skill">
+                            <div class="experience-dots">
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                            </div>
+                            
+                            <p class="experience-text">Html</p>
+                        </div>
+
+                        <div class="experience-skill">
+                            <div class="experience-dots">
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                            </div>
+                            
+                            <p class="experience-text">CSS</p>
+                        </div>
+
+                        <div class="experience-skill">
+                            <div class="experience-dots">
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                            </div>
+                            
+                            <p class="experience-text">JavaScript</p>
+                        </div>
+
+                        <div class="experience-skill">
+                            <div class="experience-dots">
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                            </div>
+                            
+                            <p class="experience-text">React</p>
+                        </div>
+
+                        <div class="experience-skill">
+                            <div class="experience-dots">
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                            </div>
+                            
+                            <p class="experience-text">Node</p>
+                        </div>
+
+                        <div class="experience-skill">
+                            <div class="experience-dots">
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item experience-dots-item-accent far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                                <i class="experience-dots-item far fa-circle"></i>
+                            </div>
+                            
+                            <p class="experience-text">React Native</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+
+    <!--ABOUT-->
+
+    <section class="about" id="about">
+        <div class="container container-left">
+            <div class="about-content-wrapper">
+                <h3 class="section-title about-title" data-aos="fade-right" data-aos-delay="500">I code things from scratch_</h3>
+
+                <p class="about-descr mobile-element">
+                    <span>[and help to</span>
+                    <span>create great web</span>
+                    <span>apps]</span>
+                </p>
+                
+                <div class="tablet-element desktop-element" data-aos="fade-right" data-aos-delay="1000">
+                    <p class="about-descr">
+                        <span>[and help to create</span>
+                        <span> great web apps]</span>
+                    </p>
+                </div>
+
+                <div class="about-img-container">
+                    <p class="about-img-text">
+                        WEB
+                        <img 
+                        src="img/web-apps-laptop.png" 
+                        alt="web-apps-laptop"
+                        class="about-img">
+                    </p>
+                </div>
+                <p class="about-text mobile-element desktop-element" data-aos="fade-right" data-aos-delay="1100">
+                    / I will help you to create a high-performans Landing Page, functional 
+                    corporate website for your business, interactive web app for SaaS,
+                    startup, or other services.
+                </p>
+                <p class="about-text tablet-element" >
+                    / I will help you to create a<br> high-performans Landing Page,<br> functional 
+                    corporate website for your<br> business, interactive web app for<br> SaaS,
+                    startup, or other services.
+                </p>
+                <p class="about-text" data-aos="fade-right" data-aos-delay="1200">
+                    / My specialization is front-end development &mdash; client side of the web.
+                    But I also have full-stack developer experience.
+                </p>
+            </div>
+
+            <div class="about-projects desktop-element">
+                <div class="about-projects-bar">
+                    <p class="about-projects-count">10+</p>
+                </div>
+                <p class="about-projects-text">completed projects</p>
+            </div>
+        </div>
+    </section>
+
+    <!--PERSONAL PROJECT-->
+
+    <section class="personal-projects" id="projects">
+        <div class="container">
+            <h3 class="section-title personal-projects-title" data-aos="fade-right"
+            data-aos-anchor-placement="top-center">
+                My personal _projects
+            </h3>
+
+            <div class="personal-project-item">
+                <div class="persondal-project-item-container">
+                    <div class="project-item-dot-container">
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                    </div>
+                    <img 
+                      src="img/projects/personal/full-stack.jpg" 
+                      alt="full stack website"
+                      class="personal-project-img">
+                </div>
+                <p class="personal-project-name">
+                    <i class="fas fa-laptop-code personal-project-icon"></i>
+                    <span>Technology: HTML5, CSS3, JS</span>
+                </p>
+                <button class="personal-project-btn accent-btn" id="personal-project-full-stack-btn" >
+                    More details &mdash;
+                </button>
+            </div>
+
+            <div class="personal-project-item">
+                <div class="personal-project-item-container">
+                    <div class="project-item-dot-container">
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                    </div>
+                    <img src="img/projects/personal/wedding.jpg" 
+                    alt="wedding website" 
+                    class="personal-project-img">
+                </div>
+                <p class="personal-project-name">
+                    <i class="fas fa-laptop-code personal-projecto-icon"></i>
+                    <span>Technology: HTML5, CSS3, JavaScript, PHP</span>
+                </p>
+                <button class="personal-project-btn accent-btn">
+                    More details &mdash;
+                </button>
+            </div>
+
+            <div class="personal-project-item">
+                <div class="personal-project-item-container">
+                    <div class="project-item-dot-container">
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                    </div>
+                    <img src="img/projects/personal/pro-test.jpg" 
+                    alt="pro test website" 
+                    class="personal-project-img">
+                </div>
+                <p class="personal-project-name">
+                    <i class="fas fa-laptop-code personal-projecto-icon"></i>
+                    <span>Technology: React.js, Node.js</span>
+                </p>
+                <button class="personal-project-btn accent-btn">
+                    More details &mdash;
+                </button>
+            </div>
+
+            <div class="personal-project-item">
+                <div class="personal-project-item-container">
+                    <div class="project-item-dot-container">
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                    </div>
+                    <img 
+                      src="img/projects/personal/goit.jpg" 
+                      alt="goit website" 
+                      class="personal-project-img">
+                </div>
+                <p class="personal-project-name">
+                    <i class="fas fa-laptop-code personal-projecto-icon"></i>
+                    <span>Technology: HTML5, CSS3, JavaScript, Wordpress</span>
+                </p>
+                <button class="personal-project-btn accent-btn">
+                    More details &mdash;
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="team-projects">
+        <div class="container">
+            <h3 class="section-title team-projects-title">
+                <span class="team-projects-title-bgd">TEAM</span>
+                Teamwork _projects
+            </h3>
+            <div class="team-project-item">
+                <div class="personal-project-item-container">
+                    <div class="project-item-dot-container">
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                    </div>
+                    <img 
+                      src="img/projects/team/questify.jpg" 
+                      alt="questify app" 
+                      class="personal-project-img">
+                </div>
+                <p class="team-project-name">
+                    <i class="fas fa-laptop-code personal-projecto-icon"></i>
+                    Technology: React.js, Node.js
+                </p>
+                <button class="personal-project-btn accent-btn">
+                    More details &mdash;
+                </button>
+            </div>
+
+            <div class="team-project-item">
+                <div class="personal-project-item-container">
+                    <div class="project-item-dot-container">
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                        <div class="project-item-dot"></div>
+                    </div>
+                    <img 
+                      src="img/projects/team/it-test.jpg" 
+                      alt="it test app" 
+                      class="personal-project-img">
+                </div>
+                <p class="team-project name">
+                    <i class="fas fa-laptop-code personal-projecto-icon"></i>
+                    Technology: React.js, Node.js
+                </p>
+                <button class="personal-project-btn accent-btn">
+                    More details &mdash;
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="callback-form">
+        <div class="container">
+            <form action="" class="callback-form-container" id="callback-form">
+                <h3 class="callback-form-title">/Are you minding [a project?]</h3>
+                <p class="callback-form-descr">Leave a request to discuss the task and technical requirements</p>
+
+                <div class="callback-form-input-container">
+                    <input 
+                        type="text" 
+                        class="callback-form-input" 
+                        placeholder="Name" 
+                        id="callback-form-input-name"
+                    />
+                    <input 
+                        type="email" 
+                        class="callback-form-input" 
+                        placeholder="Email" 
+                        id="callback-form-input-email"
+                    />
+                    <input 
+                        type="tel" 
+                        class="callback-form-input" 
+                        placeholder="+380 (__) ___ - __ - __" 
+                        id="callback-form-input-phone"
+                    />
+                </div>
+
+                <input 
+                        type="submit" 
+                        class="callback-form-submit accent-btn" 
+                        value="Discuss the project -"
+                    />
+
+            </form>
+        </div>
+    </section>
+
+    <section class="calculator" id="calculator">
+        <div class="container">
+            <div class="calculator-info-container">
+                <h3 class="calculator-title section-title mobile-element">  
+                    Calculat_ the cost of a future project
+                </h3>
+                <h3 class="calculator-title section-title tablet-element desktop-element">  
+                    Calculat_<br> the cost of a<br> future project
+                </h3>
+                <div class="mobile-element">
+                    <p class="calculator-descr">
+                        <span>This is an</span>
+                        <span class="calculator-descr-accent">approximate</span>
+                        <span>calculation</span>
+                    </p>
+                </div>
+                <p class="calculator-descr tablet-element desktop-element">
+                    <span>This is an approximate</span>
+                    <span>calculation</span>
+                </p>
+                <img src="img/calculator.svg" alt="calculator" class="calculator-icon">
+                <p class="calculator-text">
+                    / The final cost depends on the technical requirements, terms, specifics
+                    of your project.
+                </p>
+            </div>
+
+            <form action="" class="calculator-form">
+                <div class="calculator-form-input">
+                    <label for="calculator-form-website-type" class="calculator-form-title">What should be done</label>
+                    <select name="website-type" id="calculator-form-website-type" class="calculator-form-select">
+                        <option value="landing-page:600" selected>Landing page</option>
+                        <option value="website:1000">Website</option>
+                        <option value="CMS:2000">CMS</option>
+                        <option value="portal:3000">Portal</option>
+                        <option value="e-shop:2000">E-shop</option>
+                    </select>
+                </div>
+
+                <div class="calculator-form-input">
+                    <label for="calculator-form-technologies" class="calculator-form-title">Choose preferred technologies</label>
+                    <select name="technologies" id="calculator-form-technologies" class="calculator-form-select" multiple>
+                        <option selected value="html:500">HTML</option>
+                        <option selected value="css:500">CSS</option>
+                        <option selected value="js:700">JS</option>
+                        <option value="react:1000">React</option>
+                        <option value="angular:1000">Angular</option>
+                    </select>
+                </div>
+
+                <div class="calculator-form-input">
+                    <label for="" class="calculator-form-title">Personal account and shooping cart:</label>
+
+                    <div class="calculator-form-input-radio-container" id="calculator-form-input-cart">
+                        <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-yes" name="cart" value="yes">
+                        <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
+
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-cart-no" name="cart" value="no">
+                        <label for="calculator-form-input-cart-no" class="calculator-form-input-label">No</label>
+                    </div>
+                </div>
+
+                <div class="calculator-form-input" id="calculator-form-email">
+                    <label for="" class="calculator-form-title">
+                        Request reception  on your email:</label>
+
+                    <div class="calculator-form-input-radio-container" id="calculator-form-input-reception">
+                        <input checked type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-yes" name="reception" value="yes">
+                        <label for="calculator-form-input-cart-yes" class="calculator-form-input-label">Yes</label>
+
+                        <input type="radio" class="calculator-form-input-field" id="calculator-form-input-reception-no" name="reception" value="no">
+                        <label for="calculator-form-input-cart-no" class="calculator-form-input-label">No</label>
+                      </div>
+                </div>
+
+                <div class="calculator-form-input">
+                    <p class="calculator-form-total">Cost:</p>
+                    <div class="calculator-form-total-cost">300$</div>
+                </div>
+
+                <input type="submit" value="Find out the cost  —" class="accent-btn">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+
+            <div class="footer-main-content">
+                <div class="footer-my-info">
+                    <h3 class="footer-my-name">Mike SV</h3>
+                    <p class="footer-my-profession">Frontend Developer</p>
+                </div>
+                <div class="footer-contacts">
+                    <a href="tel:+380983155829" class="footer-my-tel">+38 (098) 315 58 29</a>
+                    <a href="mailto:mihailsvistun@gmail.com" class="footer-my-mail" >mihailsvistun@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="" class="social-links-item-link">
+                    <i class="fab fa-github social-links-item"></i>
+                </a>
+                <a href="tg://resolve?domain=MicheleDickson" class="social-links-item-link">
+                    <i class="fab fa-telegram social-links-item"></i>
+                </a>
+                <a href="https://www.facebook.com/mihail.svistun" class="social-links-item-link">
+                    <i class="fab fa-facebook social-links-item"></i>
+                </a>
+                <a href="">
+                    <i class="fab fa-instagram social-links-item" class="social-links-item-link"></i>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <!--MODALS-->
+    <div class="modals-wrapper">
+         <!--MOBILE MENU-->
+        
+        <div class="modal modal-mobile-menu" id="mobile-menu">
+            <div class="modal-mobile-content">
+                <div class="container mobile-menu-container">
+                    <i class="fas fa-times modal-close-btn mobile-menu-close-btn"></i>
+                    <nav class="mobile-menu-items">
+                        <a href="#about" class="mobile-menu-item">ABOUT</a>
+                        <a href="#projects" class="mobile-menu-item">PROJECTS</a>
+                        <a href="#calculator" class="mobile-menu-item">COST CALCULATOR</a>
+                        <a href="#contacts" class="mobile-menu-item">CONTACTS</a>
+                    </nav>
+                    <div class="mobile-menu-contacts">
+                        <a href="tel:+380983155829" class="mobile-menu-my-tel">+38 (098) 315 58 29</a>
+                        <a href="mailto:mihailsvistun@gmail.com" class="mobile-menu-my-mail" >mihailsvistun@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!-- MY VIDEO -->
+         
+        <div class="modal modal-area-bgd" id="my-video-modal">
+            <div class="my-video-container">
+                <i class="fas fa-times modal-close-btn my-video-close-btn"></i>
+                <video class="my-video-content modal-area-content" src="clowning.mp4" controls></video>
+            </div>
+        </div>
+ 
+        <!-- REQUEST RECEIVED -->
+
+        <div class="modal modal-request-received" id="request-received">
+            <div class="request-received-container">
+                <i class="fas fa-times modal-close-btn"></i>
+                <h3 class="request-received-title">{Thanks}</h3>
+                <p class="request-received-primary-msg">I've received your request/</p>
+                <p class="request-received-secondary-msg">I will contact you soon =)</p>
+            </div>
+        </div>
+
+        <!-- PERSONAL PROJECTS FULL STACK -->
+
+        <div class="modal project-modal modal-area-bgd" id="personal-project-full-stack">
+            <div class="project-modal-container modal-area-content">
+                <i class="fas fa-times modal-close-btn"></i>
+
+                <div class="project-modal-scrollable">
+
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                          <!-- Slides -->
+                          <img src="img/projects/personal/full-stack.jpg" class="swiper-slide" alt="full stack image 1">
+                          <img src="img/projects/personal/goit.jpg" class="swiper-slide" alt="full stack image 2">
+                          <img src="img/projects/personal/pro-test.jpg" class="swiper-slide" alt="full stack image 3">
+                          <img src="img/projects/personal/wedding.jpg" class="swiper-slide" alt="full stack image 4">
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                      
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev tablet-element desktop-element"></div>
+                        <div class="swiper-button-next tablet-element desktop-element"></div>
+                      
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+
+                    <a href="https://fullstackonline.goit.ua/" class="project-modal-title">
+                        Goit Full Stack разработчик
+                    </a>
+
+                    <p class="project-modal-text">
+                        "Одностраничный лендинг с использованитем HTML и CSS. Сайт рассказывает 
+                        потенциальным клиентам о приимуществах обучения на курсе, программе,
+                        стоимости и длительности занятий. 
+                    </p>
+
+                    <p class="project-modal-text">
+                        Также на сайте добавлена форма обратной связи, соцсети и возможность
+                        посмотреть видео-отзывы выпускников, не уходя на внешние ресурсы. 
+                        Компактно и доступной форме дана вся информация о курсе, 
+                        преподаватилях и процессе обучения. Формат сайта подходит для небольших
+                        компаний или раскрытия информации о конкретном продукте."
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/choices.min.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="js/project-modals.js"></script>
+    <script src="js/modals.js"></script>
+    <script src="js/callback-form.js"></script>
+    <script src="js/aos.js"></script>
+    <script>AOS.init();</script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/sliders.js"></script>
+</body>
+</html>  
